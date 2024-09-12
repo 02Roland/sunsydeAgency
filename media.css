@@ -1,0 +1,140 @@
+@media screen and (min-width: 900px) {
+    .menuMobile{
+        display: none;
+    }
+    #ulDesktop{
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        
+    }
+    #ulDesktop li:last-child{
+        background-color: var(--white);
+        padding: 10px 15px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    header{
+        height: 100vh;
+        background-image: url("images/desktop/image-header.jpg");
+        padding: 20px;
+        color: var(--white);
+    }
+    .arrow{
+        margin-top: 30px;
+    }
+    #presentation{
+        padding-top: 100px;
+        justify-content: start;
+    }
+    #presentation div{
+        height: auto;
+    }
+    #presentation p{
+        word-spacing: 5px;
+        font-size: 50px;
+    }
+    .container{
+        display: flex;
+    }
+    .container-child{
+        display: block;
+        width: 50%;
+        height: 600px;
+    }
+    .descript{
+        width: 50%;
+        align-items: start;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .descript h2{
+        text-align: left;
+        width: 50%;
+    }
+    .descript p{
+        text-align: left;
+        width: 100%;
+    }
+    #Stand{
+        background-image: url("images/desktop/image-stand-out.jpg");
+        background-color: red
+    }
+    #transform{
+        background-image: url("images/desktop/image-transform.jpg");
+    }
+    .container:first-child{
+        flex-direction: row;
+    }
+    .container:nth-child(2), .container:first-child{
+        align-items: center;
+        justify-content: center;
+    }
+    #blocPresentation{
+        display: flex;
+        width: 95%;
+        padding-left: 50px;
+        padding-right: 50px;
+        justify-content: space-between;
+    }
+    .card{
+        width: 35%;
+    }
+    #galerie{
+        flex-wrap: nowrap;
+    }
+    #galerie div{
+        height: 400px;
+    }
+    #img1{
+        background-image: url("images/desktop/image-gallery-milkbottles.jpg");
+    }
+    #img2{
+        background-image: url("images/desktop/image-gallery-orange.jpg");
+    }
+    #img3{
+        background-image: url("images/desktop/image-gallery-cone.jpg");
+    }
+    #img4{
+        background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
+    }
+    #photography{
+        background-image: url("images/desktop/image-photography.jpg");
+    }
+    #Graphic{
+        background-image: url("images/desktop/image-graphic-design.jpg");
+    }
+    #socialNework{
+        width: 20%;
+        justify-content: space-around;
+    }
+    #listeEtTitre{
+        width: 30%;
+    }
+    .divseul div{
+        width: 60%;
+    }
+    #sectionContain{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #listeMobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .descript p{
+        width: 90%;
+    }
+    .descript{
+        padding-left: 200px;
+        padding-right: 100px;
+    }
+    #presentation{
+        margin-top: 100px;
+        justify-content: start;
+    }
+}
